@@ -38,6 +38,7 @@ function applyLanguage(lang) {
     document.getElementById('btn-ru').classList.toggle('active', lang === 'ru');
     document.getElementById('btn-en').classList.toggle('active', lang === 'en');
     document.documentElement.lang = lang;
+    setCookie(COOKIE_NAME, lang, 365);
 }
 
 function setLanguage(lang) {
