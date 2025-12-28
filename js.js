@@ -28,6 +28,7 @@ function getCookie(name) {
 function applyLanguage(lang) {
     if (!translations[lang]) {
         lang = 'en';
+        setCookie(COOKIE_NAME, lang, 365);
     }
 
     document.getElementById('works-header').innerText = translations[lang].header;
