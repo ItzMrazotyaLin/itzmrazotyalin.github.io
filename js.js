@@ -3,13 +3,13 @@ const COOKIE_NAME = 'iml.github.site.lang';
 const translations = {
     ru: {
         header: "Мои работы",
-        desc1: "Сборник проектов, созданных в Gemini",
-        go: "Перейти"
+        desc1: "Проект по созданию сборки на базе Windows 7, содержащей экосистему Microsoft 2010-х годов",
+        go: "Перейти (GitHub Pages)"
     },
     en: {
         header: "My Works",
-        desc1: "A collection of projects created in Gemini",
-        go: "View Project"
+        desc1: "A project to create a Windows 7-based build containing the Microsoft ecosystem of the 2010s",
+        go: "View (GitHub Pages)"
     }
 };
 
